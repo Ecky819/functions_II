@@ -5,6 +5,7 @@ int groessereZahl(int zahl1, int zahl2) {
   } else if (zahl1 < zahl2) {
     return zahl2;
   } else {
+    // Ausgabe, wenn beide Zahlen gleich sind
     return -1;
   }
 }
@@ -12,6 +13,7 @@ int groessereZahl(int zahl1, int zahl2) {
 void main() {
   int ergebnis1 = groessereZahl(5, 10);
   print(
+    //Prüfung ob die Rückgabe -1 ist, was bedeutet, dass beide Zahlen gleich sind
     ergebnis1 == -1 ? "Beide Zahlen sind gleich." : "Größere Zahl: $ergebnis1",
   );
 
