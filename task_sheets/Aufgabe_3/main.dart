@@ -22,7 +22,7 @@ void main() {
   print("Anzahl der Vokale in '$text1': ${countVowels(text1)}");
 
   // Test 2
-  String text2 = "Dart ist toll.";
+  String text2 = "Flutter ist super.";
   print("Anzahl der Zeichen in '$text2': ${countCharacters(text2)}");
   print("Anzahl der Vokale in '$text2': ${countVowels(text2)}");
 
