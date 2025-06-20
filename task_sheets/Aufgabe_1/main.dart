@@ -1,6 +1,4 @@
 // Funktion zur Berechnung der Summe von drei ganzen Zahlen
-typedef SumFunction = int Function(int a, int b, int c);
-
 int berechneSumme(int a, int b, int c) {
   return a + b + c;
 }
